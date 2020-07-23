@@ -1,6 +1,6 @@
 {
   "name": "yapi-plugin-fuckoauth2",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "oauth2 plugin for yapi",
   "main": "index.js",
   "scripts": {
