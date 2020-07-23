@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/golangheart/yapi-plugin-fuckoauth2/issues"
   },
-  "homepage": "https://github.com/golangheart/yapi-plugin-fuckoauth2#readme"
+  "homepage": "https://github.com/golangheart/yapi-plugin-fuckoauth2#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "lodash.find": "^4.6.0",
+    "lodash.get": "^4.4.2"
+  }
 }
