@@ -47,10 +47,10 @@ module.exports = function (options) {
     };
   });
 
-  this.bindHook('add_router', function (addRouter) {
-    addRouter({
+  this.bindHook('add_router', function (router) {
+    router({
       controller: controller,
-      method: 'GET',
+      method: 'get',
       path: 'oauth2/callback',
       action: 'oauth2Callback'
     });
