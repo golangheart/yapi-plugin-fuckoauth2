@@ -1,8 +1,5 @@
 const axios = require('axios');
 const get = require('lodash.get')
-const find = require('lodash.find')
-const yapi = require('yapi.js');
-const baseController = require('controllers/base.js');
 
 function gets(obj, keys) {
   let value = ''
@@ -21,15 +18,6 @@ function gets(obj, keys) {
     value = get(obj, keys)
   }
   return value
-}
-
-/**
- * 加载oauth2配置文件
- */
-function loadOpts() {
-  return find(yapi.WEBCONFIG.plugins, (plugin) => {
-    return plugin.name === 'fuckoauth2';
-  })
 }
 
 module.exports = function (options) {

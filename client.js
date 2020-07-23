@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {Component} from 'react'
 
 module.exports = function (options) {
   const handleLogin = () => {
